@@ -1,142 +1,530 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mairala-page</title>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mairala-page</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!--logo and Toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <!-- <button type="button" class="navbar-toggle-collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> -->
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html"><img src="./images/logo.png" alt="" /></a>
+  <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="" /></a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="true">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto navbar-right">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolios">PORTFOLIOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blog">blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Banner-Style -->
+  <header id="home" class="home">
+    <div class="overlay-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="home-content">
+              <h5>Grab Your Copy Of</h5>
+              <h1>The <span>Premium</span> Quality PSD Template For <span>free</span></h1>
+
+              <a target="_blank" href="#"><button class="btn btn-default btn-home">Download<span><i
+                      class="fa fa-download"></i></span></button></a>
             </div>
-            <!-- COllect nav-links for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">  
-                    <li class="active"><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#project">Portfolios</a></li>
-                    <li><a href="#team">Team</a></li>
-                    <li><a href="#blog">Blog</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div> <!--/navbar-collapse-->
-        </div> <!--container-->
-    </nav>
-    <!-- Banner-Style -->
-    <header id="home" class="home">
-        <div class="overlay-img">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="home-content">
-                            <h5>Grab Your Copy Of</h5>
-                            <h1>The <span>Premium</span> Quality PSD Template For <span>free</span></h1>
-                            
-                            <a target="_blank" href="#"><button class="btn btn-default btn-home">Download<span><i class="fa fa-download"></i></span></button></a>
-                        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!--  -->
+  <div class="container1">
+    <div class="aboutUs">
+      <h2>KNOW ABOUT US</h2>
+      <button class="rec"></button>
+      <p> Nam liber tempor cum soluto nobis eleifend option<br>congue nihil imperdiet doming id quod mazim</p>
+    </div>
+    <div class="read">
+      <div class="read-data">
+        <h3>WE ARE THE BEST</h3>
+        <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+          aliquam
+          erat
+        </p>
+        <p>Volutpat wisi enim ad minim veniam, quis nostrud exerci tation ullamcor-per suscipit lobortis
+          nisl ut
+          aliquip
+          ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+          molestie
+          consequat, vel illium dolore eu feugiat nulla facilisis at vero eros at accumsan et iusto odio
+          dignissim
+          qui
+          blandit praesant luptatum zzril delenit augua duis dolore te feugait nulla facilisi. Nam liber
+          tempor
+          cum
+        </p>
+        <button>Read More <i class="fa fa-arrow-right"></i></button>
+      </div>
+      <div class="read-image">
+        <img src="images/aboutUs.png">
+      </div>
+    </div>
+    <div class="service">
+      <h3>SERVICE WE PROVIDE</h3>
+      <p class="ser">Volutpat wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
+        nisl ut
+        aliquip ex ea commodo<br>
+        consequat.Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
+        illum dolore eu<br>
+        feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent</p>
+      <div class="row">
+        <div class="column user">
+          <img src="images/consultant.png">
+          <h4>CONSULTANCY</h4>
+          <p>Claritas est etiam processus dynaicus qui sequitur mutationem consuetudium lectorum. Mirum est
+            notare
+            quam</p>
+        </div>
+        <div class="column">
+          <img src="images/marketing.png">
+          <h4>MARKETING</h4>
+          <p>Claritas est etiam processus dynaicus qui sequitur mutationem consuetudium lectorum. Mirum est
+            notare
+            quam</p>
+        </div>
+        <div class="column">
+          <img src="images/Research.png">
+          <h4>RESEARCH</h4>
+          <p>Claritas est etiam processus dynaicus qui sequitur mutationem consuetudium lectorum. Mirum est
+            notare
+            quam</p>
+        </div>
+      </div>
+    </div>
+    <div class="skills"><img src="images/skills.png"></div>
+    <div class="project">
+      <h2>SOME RECENT PROJECTS</h2>
+      <button class="rec"></button>
+      <p>Nam liber tempor cum soluta nobis eleifend option
+        congue nihil imperdiet doming id quod mazim</p>
+    </div>
+    <div class="portfolio">
+      <div class="row">
+        <div class="column">
+          <div class="relative">
+            <img src="images/portfolio1.png" alt="image" style="width:100%">
+          </div>
+          <div class="absolute">
+            <img src="images/portfolioHover.png">
+          </div>
+        </div>
+        <div class="column">
+          <div class="relative">
+            <img src="images/portfolio2.png" alt="image" style="width:100%">
+          </div>
+          <!-- <div class="absolute">
+                      <img src="image/portfolioHover.png">
+                  </div> -->
+        </div>
+        <div class="column">
+          <div class="relative">
+            <img src="images/portfolio3.png" alt="image" style="width:100%">
+          </div>
+          <!-- <div class="absolute">
+                      <img src="image/portfolioHover.png">
+                  </div> -->
+        </div>
+        <div class="column">
+          <div class="relative">
+            <img src="images/portfolio4.png" alt="image" style="width:100%">
+          </div>
+          <!-- <div class="absolute">
+                      <img src="image/portfolioHover.png">
+                  </div> -->
+        </div>
+      </div>
+      <div class="portfolio-data">
+        <h3>LATEST FROM TWITTER</h3>
+        <p>Trying out velositey - a simple website building extension for Photoshop.</p>
+        <p><a href="#">buff.ly/NC8gog</a></p>
+      </div>
+      <div class="row">
+        <div class="column">
+          <div class="relative">
+            <img src="images/portfolio1.png" alt="image" style="width:100%">
+          </div>
+          <!-- <div class="absolute" style="left:2%">
+                      <img src="image/portfolioHover.png">
+                  </div> -->
+        </div>
+        <div class="column">
+          <div class="relative">
+            <img src="images/portfolio2.png" alt="image" style="width:100%">
+          </div>
+          <!-- <div class="absolute" style="left:26%">
+                      <img src="image/portfolioHover.png">
+                  </div> -->
+        </div>
+        <div class="column">
+          <div class="relative">
+            <img src="images/portfolio3.png" alt="image" style="width:100%">
+          </div>
+          <!-- <div class="absolute" style="left:50%">
+                      <img src="image/portfolioHover.png">
+                  </div> -->
+        </div>
+        <div class="column">
+          <div class="relative">
+            <img src="images/portfolio4.png" alt="image" style="width:100%">
+          </div>
+          <!-- <div class="absolute" style="left: 75%;">
+                      <img src="image/portfolioHover.png">
+                  </div> -->
+        </div>
+      </div>
+      <div class="seealso">
+        <button>See Also <i class="fa fa-arrow-right"></i></button>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <!--Our Team Members-->
+  <div class="our-team">
+    <h2>OUR TEAM MEMBERS</h2>
+    <div class="rectangle"></div>
+    <p>Nam liber tempor cum soluta nobis eleifend option</p>
+    <p>congue nihil imperdiet doming id quod mazim</p>
+    <div class="album py-5">
+      <div class="container">
+        <div class="row row-team">
+          <div class="col-md-4">
+            <div class="mb-4">
+              <div class="bd-placeholder-img">
+                <div class="card-img-top">
+                  <div class="overlay">
+                    <div class="text">
+                      <a href="#"><img src="./images/twitter.png" alt="twitter" width="55px" height="55px"></a>
+                      <a href="#"><img src="./images/facebook.png" alt="twitter" width="55px" height="55px"></a>
+                      <a href="#"><img src="./images/linkedin.png" alt="twitter" width="55px" height="55px"></a>
                     </div>
+                  </div>
+                  <div class="pic">
+                    <a href="#"><img width="100%" height="auto" src="./images/director.png"></a>
+                  </div>
                 </div>
+              </div>
+              <div class=" cardbdy">
+                <h4>MITCHELL ANDERSON</h4>
+                <div>
+                  <small>CREATIVE DIRECTOR</small>
+                </div>
+              </div>
             </div>
+          </div>
+          <div class="col-md-4">
+            <div class="mb-4">
+              <div class="bd-placeholder-img">
+                <div class="card-img-top">
+                  <div class="overlay">
+                    <div class="text">
+                      <a href="#"><img src="./images/twitter.png" alt="twitter" width="55px" height="55px"></a>
+                      <a href="#"><img src="./images/facebook.png" alt="twitter" width="55px" height="55px"></a>
+                      <a href="#"><img src="./images/linkedin.png" alt="twitter" width="55px" height="55px"></a>
+                    </div>
+                  </div>
+                  <div class="pic">
+                    <a href="#"><img width="100%" height="auto" src="./images/director.png"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="cardbdy">
+                <h4>MITCHELL ANDERSON</h4>
+                <div>
+                  <small>CREATIVE DIRECTOR</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="mb-4">
+              <div class="bd-placeholder-img">
+                <div class="card-img-top">
+                  <div class="overlay">
+                    <div class="text">
+                      <a href="#"><img src="./images/twitter.png" href="#" alt="twitter" width="55px" height="55px"></a>
+                      <a href="#"><img src="./images/facebook.png" alt="facebook" width="55px" height="55px"></a>
+                      <a href="#"><img src="./images/linkedin.png" alt="linkedin" width="55px" height="55px"></a>
+                    </div>
+                  </div>
+                  <div class="pic">
+                    <a href="#"><img width="100%" height="auto" src="./images/director.png"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="cardbdy">
+                <h4>MITCHELL ANDERSON</h4>
+                <div>
+                  <small>CREATIVE DIRECTOR</small>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </header>
-    
-    <!--Footer-->
-    <footer id="footer" class="sections footer different-bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="footer-first-content">
-                        <div class="logo"><img src="./images/footer-logo.png" alt="Company Logo" /></div>
-                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore.</p>
-                        <p>eugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="footer-mid-content">
-                        <h4>Recent Posts</h4>
-                        <div class="post">
-							<div class="post-item">
-								<h6>March 30, 2014</h6>
-								<p>Duis autem vel eum iriure dolor</p>
-							</div>
-                        </div>
-                        <div class="post">
-							<div class="post-item">
-								<h6>March 30, 2014</h6>
-								<p>Duis autem vel eum iriure dolor</p>
-							</div>
-                        </div>
+      </div>
+    </div>
+  </div>
+  <!--Slider(Black Background)-->
+  <div class="slider-bg">
 
-                        <div class="post">
-							<div class="post-item">
-								<h6>March 30, 2014</h6>
-								<p>Duis autem vel eum iriure dolor</p>
-							</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="footer-mid-content">
-                        <h4>Twitter Feeds</h4>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
 
-                        <div class="post">
-							<div class="post-item">
-								<h6>about 2 days ago <span>@kristianplatt</span></h6>
-								<p>Good work buddy</p>
-							</div>
-                        </div>
-
-                        <div class="post">
-							<div class="post-item">
-								<h6>about 2 days ago <span>@fasteven</span></h6>
-								<p>Good work buddy</p>
-							</div>
-                        </div>
-                        <div class="post">
-							<div class="post-item">
-								<h6>about 2 days ago <span>@streamer</span></h6>
-								<p>Good work buddy</p>
-							</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="footer-last-content">
-                        <h4>Our Address</h4>
-                        <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus,luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta </p>
-                        <div class="contact-info">
-                            <p><i class="fa fa-map-marker" aria-hidden="true"></i>Moonshine St. 14/05 Light</p>
-                            <p><i class="fa fa-phone" aria-hidden="true"></i>+00 (123) 456 78 90</p>
-                            <p><i class="fa fa-envelope" aria-hidden="true"></i>first.last@email.com</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>	
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <h5>WHAT OUR CLIENTS ARE SAYING</h5>
+          <div class="p1">“It was a pleasure to work with Imran. He is very dedicated and professional. </div>
+          <div class="p1"> He worked very hard to satisfy our requirements and the communication was great.”</div>
+          <div class="p2">John Doe </div>
+          <a href="#">
+            <h5>www.yourwebsite.zt</h5>
+          </a>
         </div>
-    </footer>
-    <footer class="copyright-footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="copyright text-center">
-						<p>@2014 All rights reserved.</p>
-					</div>
-				</div>
-			</div>
-		</div>		
-	</footer>
+        <div class="item">
+          <h5>WHAT OUR CLIENTS ARE SAYING</h5>
+          <div class="p1">“It was a pleasure to work with Imran. He is very dedicated and professional. </div>
+          <div class="p1"> He worked very hard to satisfy our requirements and the communication was great.”</div>
+          <div class="p2">John Doe </div>
+          <a href="#">
+            <h5>www.yourwebsite.zt</h5>
+          </a>
+        </div>
+        <div class="item">
+          <h5>WHAT OUR CLIENTS ARE SAYING</h5>
+          <div class="p1">“It was a pleasure to work with Imran. He is very dedicated and professional. </div>
+          <div class="p1"> He worked very hard to satisfy our requirements and the communication was great.”</div>
+          <div class="p2">John Doe </div>
+          <a href="#">
+            <h5>www.yourwebsite.zt</h5>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Our Blog-->
+  <div class="container2">
+    <div class="blog-bg">
+      <h2>OUR BLOG</h2>
+      <div class="rectangle"></div>
+      <p>Nam liber tempor cum soluta nobis eleifend option</p>
+      <p>congue nihil imperdiet doming id quod mazim</p>
+      <div class="container my-4">
+        <div class="row align-items-center">
+          <div class="col-md-5 order-md-3">
+            <small class="margin-allpost-left">10 april 2014</small>
+            <h3 class="margin-allpost-left">Typi non habent claritatem insitam</h3>
+            <small class="margin-allpost-left">Duis autem vel eum iriure dolor in hendrerit in vulputate velit</small>
+            <br>
+            <small class="margin-allpost-left"> esse molestie consequat, vel illum dolore eu feugiat nulla</small>
+            <br>
+            <small class="margin-allpost-left"> facilisis at vero eros et accumsan et iusto odio dignissim qui
+              [...].</small>
+          </div>
+          <div class="col-md-1 order-md-2">
+            <div class="circle1">
+              <div class="line"></div>
+            </div>
+          </div>
+          <div class="col-md-6 order-md-1">
+            <img class="image" src="./images/camera.png" height="auto" width="375px">
+          </div>
+        </div>
+
+        <div class="row align-items-center">
+          <div class="col-md-5 order-md-1">
+            <small class="margin-allpost-right">20 March 2014</small>
+            <h3 class="margin-allpost-right">Typi non habent claritatem insitam</h3>
+            <small class="margin-allpost-right">Duis autem vel eum iriure dolor in hendrerit in vulputate velit</small>
+            <br>
+            <small class="margin-allpost-right"> esse molestie consequat, vel illum dolore eu feugiat nulla</small>
+            <br>
+            <small class="margin-allpost-right"> facilisis at vero eros et accumsan et iusto odio dignissim qui
+              [...].</small>
+          </div>
+          <div class="col-md-1 order-md-2">
+            <div class="circle">
+            </div>
+          </div>
+          <div class="col-md-6 order-md-3" style="padding-right: 40px;">
+            <img class="image-left" src="./images/camera1.png" height="auto" width="375px">
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-md-5 order-md-3">
+            <small class="margin-allpost-left">10 january 2014</small>
+            <h3 class="margin-allpost-left">Typi non habent claritatem insitam</h3>
+            <small class="margin-allpost-left">Duis autem vel eum iriure dolor in hendrerit in vulputate velit</small>
+            <br>
+            <small class="margin-allpost-left"> esse molestie consequat, vel illum dolore eu feugiat nulla</small>
+            <br>
+            <small class="margin-allpost-left"> facilisis at vero eros et accumsan et iusto odio dignissim qui
+              [...].</small>
+          </div>
+          <div class="col-md-1 order-md-2">
+            <div class="circle1"></div>
+          </div>
+          <div class="col-md-6 order-md-1">
+            <img class="image" src="./images/camera1.png" height="auto" width="375px">
+          </div>
+        </div>
+        <a href="#"><img class="allpost" src="./images/allpost.png" height="90px" width="90px"></a>
+      </div>
+    </div>
+    <!-- Contact-->
+    <div class="contact-bg">
+      <h2>CONTACT</h2>
+      <form>
+        <div>
+          <input type="name" id="name" placeholder="Name*">
+          <input type="email" id="email" placeholder="Email*">
+          <textarea rows="6" type="text" id="msg">Message...
+        </textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+  <!--Footer-->
+  <footer id="footer" class="sections footer different-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="footer-first-content">
+            <div class="logo"><img src="./images/footer-logo.png" alt="Company Logo" /></div>
+            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum
+              dolore.</p>
+            <p>eugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum
+              zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="footer-mid-content">
+            <h4>Recent Posts</h4>
+            <div class="post">
+              <div class="post-item">
+                <h6>March 30, 2014</h6>
+                <p>Duis autem vel eum iriure dolor</p>
+              </div>
+            </div>
+            <div class="post">
+              <div class="post-item">
+                <h6>March 30, 2014</h6>
+                <p>Duis autem vel eum iriure dolor</p>
+              </div>
+            </div>
+
+            <div class="post">
+              <div class="post-item">
+                <h6>March 30, 2014</h6>
+                <p>Duis autem vel eum iriure dolor</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="footer-mid-content">
+            <h4>Twitter Feeds</h4>
+
+            <div class="post">
+              <div class="post-item">
+                <h6>about 2 days ago <span>@kristianplatt</span></h6>
+                <p>Good work buddy</p>
+              </div>
+            </div>
+
+            <div class="post">
+              <div class="post-item">
+                <h6>about 2 days ago <span>@fasteven</span></h6>
+                <p>Good work buddy</p>
+              </div>
+            </div>
+            <div class="post">
+              <div class="post-item">
+                <h6>about 2 days ago <span>@streamer</span></h6>
+                <p>Good work buddy</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="footer-last-content">
+            <h4>Our Address</h4>
+            <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam
+              processus dynamicus,luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor
+              cum soluta </p>
+            <div class="contact-info">
+              <p><i class="fa fa-map-marker" aria-hidden="true"></i>Moonshine St. 14/05 Light</p>
+              <p><i class="fa fa-phone" aria-hidden="true"></i>+00 (123) 456 78 90</p>
+              <p><i class="fa fa-envelope" aria-hidden="true"></i>first.last@email.com</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <footer class="copyright-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="copyright text-center">
+            <p>@2014 All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
+
 </html>
+
